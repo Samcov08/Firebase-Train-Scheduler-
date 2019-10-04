@@ -27,9 +27,9 @@ $("#add-train-btn").on("click", function(event) {
     // Creates local "temporary" object for holding employee data
     var newTrain = {
         name: trainName,
-        role: trainDest,
-        start: trainTime,
-        rate: trainFreq
+        dest: trainDest,
+        time: trainTime,
+        freq: trainFreq
     };
 
     // Uploads train data to the database
