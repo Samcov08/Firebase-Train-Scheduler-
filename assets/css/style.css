@@ -1,0 +1,20 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.bg {
+    color: black;
+    background-color: transparent;
+}
+
+.btn {
+    color: white;
+    background-color: green;
+}
